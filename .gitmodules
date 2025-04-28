@@ -1,0 +1,20 @@
+[submodule "src/mmdet_projects/detr3d"]
+	path = src/mmdet_projects/detr3d
+	url = https://github.com/iis-esslingen/detr3d.git
+	branch = camshift
+[submodule "src/mmdet_projects/PETR"]
+	path = src/mmdet_projects/PETR
+	url = https://github.com/iis-esslingen/PETR.git
+	branch = camshift
+[submodule "src/mmdet_projects/StreamPETR"]
+	path = src/mmdet_projects/StreamPETR
+	url = https://github.com/iis-esslingen/StreamPETR.git
+	branch = camshift
+[submodule "src/mmdet_projects/BEVDet"]
+	path = src/mmdet_projects/BEVDet
+	url = https://github.com/iis-esslingen/BEVDet.git
+	branch = camshift
+[submodule "src/mmdet_projects/BEVFormer"]
+	path = src/mmdet_projects/BEVFormer
+	url = https://github.com/iis-esslingen/BEVFormer.git
+	branch = camshift

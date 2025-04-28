@@ -1,0 +1,28 @@
+# general
+line-length = 100
+target-version = "py311"
+
+exclude = [
+    "src/mmdet_projects/detr3d",
+    "src/mmdet_projects/PETR",
+    "src/mmdet_projects/StreamPETR",
+    "src/mmdet_projects/BEVDet",
+    "src/mmdet_projects/BEVFormer",
+]
+
+[lint]
+# rules according to: https://docs.astral.sh/ruff/rules/
+select = [
+    "E", # pycodestyle Error
+    "F", # Pyflakes
+    "I", # isort
+    "W", # pycodestyle Warning
+]
+
+ignore = [
+    "E501", # line too long
+    "W191", # in conflict with formatter
+]
+
+[format]
+indent-style = "space"
